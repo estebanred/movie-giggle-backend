@@ -10,7 +10,7 @@ var UserWatched = require("./model/userwatched");
 var app = express();
 var router = express.Router();
 
-var port = process.env.API_PORT || 8080;
+var port = process.env.PORT || 8080;
 
 mongoose.connect(process.env.DATABASE_URL);
 
